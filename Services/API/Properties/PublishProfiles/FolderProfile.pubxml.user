@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>G:\TFS\RitmaFlexPro\Services\API\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-01-04T08:39:40.9480080Z;True|2022-01-04T11:14:10.3956654+03:00;True|2022-01-04T10:51:52.1279311+03:00;True|2021-12-24T00:20:53.6153691+03:00;True|2021-11-02T08:17:32.6658601+03:00;True|2021-09-30T18:52:19.3629352+03:00;True|2021-09-30T18:04:04.5039400+03:00;True|2021-09-30T18:02:49.8450080+03:00;</History>
+  </PropertyGroup>
+</Project>

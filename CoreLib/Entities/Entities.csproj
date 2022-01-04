@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ErkerCore.Entities</AssemblyName>
+    <RootNamespace>ErkerCore.Entities</RootNamespace>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\ContactBankAccount.cs" />
+    <Compile Remove="Entities\RMAction.cs" />
+    <Compile Remove="Entities\RMContactUserRoleAssign.cs" />
+    <Compile Remove="Entities\RMRole.cs" />
+    <Compile Remove="Entities\RMRoleAction.cs" />
+    <Compile Remove="Entities\RMRoleActionUser.cs" />
+    <Compile Remove="Entities\RMRoleModule.cs" />
+    <Compile Remove="Entities\UserRoleActions.cs" />
+    <Compile Remove="Helper\ListPagination.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helper\" />
+  </ItemGroup>
+
+</Project>

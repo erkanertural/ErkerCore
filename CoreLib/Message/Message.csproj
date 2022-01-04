@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ErkerCore.Message</AssemblyName>
+    <RootNamespace>ErkerCore.Message</RootNamespace>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Helper\Validate.cs" />
+    <Compile Remove="Model\Sectors.cs" />
+    <Compile Remove="Request\BaseRequestCreateT.cs" />
+    <Compile Remove="Request\BaseRequestEditT.cs" />
+    <Compile Remove="Request\BaseRequestRemove.cs" />
+    <Compile Remove="Request\RequestAddress.cs" />
+    <Compile Remove="Request\RequestBankAccount.cs" />
+    <Compile Remove="Request\RequestCompany.cs" />
+    <Compile Remove="Request\RequestContact.cs" />
+    <Compile Remove="Request\RequestContactPerson.cs" />
+    <Compile Remove="Request\RequestContactProduct.cs" />
+    <Compile Remove="Request\RequestContactType.cs" />
+    <Compile Remove="Request\RequestLicense.cs" />
+    <Compile Remove="Request\RequestLogin.cs" />
+    <Compile Remove="Request\RequestSubscriberUserAccessRule.cs" />
+    <Compile Remove="Request\RequestUserAccount.cs" />
+    <Compile Remove="Result\Validator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Message.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Library\Library.csproj" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\ExternalLibsDLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

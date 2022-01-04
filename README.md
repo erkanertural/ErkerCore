@@ -1,4 +1,5 @@
-# ErkerCore
+# ErkerCore V1 
+
 .Net Core 5 Low Code MultiLanguage Supported Feature-Based Generic Framework
 
  * Generic Repository

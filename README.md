@@ -3,6 +3,8 @@
 .Net Core 5 Low Code MultiLanguage Supported Feature-Based Generic Framework
 
  * Generic Repository
+ * Orm-based (EF Core) multi db supporting
+ * Automatic CRUD , GetListView, GetView, GetModel, GetModelList methods for swagger.
  * Multi Language Support
  * Internal my custom validation library
  * Automatic extend to Entity Object with json value and storing db column. While read automatic deserialization and present with dynamic type of extend object 
@@ -19,3 +21,6 @@
  * Support to extending runtime feature and feature value (adding new city, new country to db)
  * Automatic EF Core table checker ( for error log, prevent mismatch )
  * Minimum request,view,entity,message,model object usage and minimum db table.. 
+ * Feature mismatching and automatic adding 
+ * Powerful extension methods
+ 

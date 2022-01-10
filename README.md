@@ -9,7 +9,7 @@
  * Internal my custom validation library
  * Automatic extend to Entity Object with json value and storing db column. While read automatic deserialization and present with dynamic type of extend object 
  * Transactional log and storing mechanism
- * Automatic paging , listing , pagesize , validtaing and "hasMoreData" supported paging mechanism
+ * Automatic paging , listing , pagesize , validating and "hasMoreData" supported paging mechanism
  * Automatic IsDeleted field adding any linq query if it possible
  * Automatic 'OwnerId' field adding any linq query if it possible
  * Tracks its entity object , if you send your new instance entity object, framework automatic will be detect and store only changed field 

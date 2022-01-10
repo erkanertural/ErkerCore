@@ -19,7 +19,7 @@
  * Automatic hashing custom field of entity which is you want 
  * Powerful attribute supporting and usage
  * Support to extending runtime feature and feature value (adding new city, new country to db)
- * Automatic EF Core table checker ( for error log, prevent mismatch )
+ * Automatic EF Core Entity - DB table object isExisting checker ( for error log, prevent mismatch )
  * Minimum request,view,entity,message,model object usage and minimum db table.. 
  * Feature mismatching and automatic adding 
  * Powerful extension methods
